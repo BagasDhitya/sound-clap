@@ -10,9 +10,7 @@ const Layout: FC<Layout> = ({ children }) => {
     <div className="flex h-screen w-screen">
       <div className="flex h-full w-full flex-col overflow-auto">
         <Navbar />
-        <div className={"h-full w-full overflow-auto bg-alta-background"}>
-          {children}
-        </div>
+        <div className={"h-full w-full overflow-auto bg-white"}>{children}</div>
       </div>
     </div>
   );
